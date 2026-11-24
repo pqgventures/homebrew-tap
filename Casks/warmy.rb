@@ -1,6 +1,6 @@
 cask "warmy" do
-  version "1.0.21"
-  sha256 "9bd98e7aee1c2ad7b790282defb518cb54b0ea2e80af4f8f8a9b59aa36d9a105"
+  version "1.0.22"
+  sha256 "c34ebcbc7cfeb0dc843224d5bf7168421885838f3dc2bbe7e52cabf7905f370d"
 
   url "https://warmy.dev/dl/Warmy-#{version}.dmg"
   name "Warmy"
@@ -13,6 +13,7 @@ cask "warmy" do
   end
 
   auto_updates true
+  depends_on arch: :arm64
   depends_on macos: :ventura
 
   app "Warmy.app"
