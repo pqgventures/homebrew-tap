@@ -1,6 +1,6 @@
 cask "warmy" do
-  version "1.0.24"
-  sha256 "3ec068b800674bb2d7b0400fa42f10be99875d091ef8f030004ee327ec262381"
+  version "1.0.25"
+  sha256 "c65f4691bf4875c675a777da4489d52eef5667e6f0744362dc635fd9ced1ae3e"
 
   url "https://warmy.dev/dl/Warmy-#{version}.dmg"
   name "Warmy"
